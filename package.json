@@ -10,6 +10,7 @@
     "test": "jest --watch",
     "prepublishOnly": "npm run build",
     "prettify": "prettier --write **/*.js",
+    "prepare": "yarn build",
     "release": "release patch && echo 'now run `npm publish`'"
   },
   "engines": {
